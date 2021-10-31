@@ -94,7 +94,7 @@ img, video, h2{
     text-decoration: none;
   }
   
-  /* Farbänderung beim rüberfahren */
+  /* Interaktives nav bar */
   li a:hover:not(.active) {
     background-color: #535353;
   }
@@ -106,13 +106,14 @@ img, video, h2{
 
   .aboutme {
       display: block; width: 800px;
-      font-size: 25px;
+      font-size: 20px;
       font-weight: lighter;
       text-align: left;
       margin-left: auto;
       margin-right: auto;
       padding: 0px 0px 5px;
+      margin-top: -280px;
  }
 
-  }
+
 
