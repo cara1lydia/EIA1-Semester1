@@ -1,7 +1,7 @@
 /*Hintergrundbild und Schriftart*/
 body{ 
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(Materialien03/bg.png);
+    background-image: url(../Aufgabe03/Materialien03/bg.png);
 }
 
 /*Kreis*/
@@ -21,10 +21,9 @@ body{
     letter-spacing: -20px;
     border-radius: 1000px;
     margin-top: -1100px;
-    margin-left: -400px;
-    margin-right: -400px;
+    margin-left: -407px;
+    margin-right: -393px;
 }
-
 
 .Titel {
     margin-top: 280px;
@@ -50,14 +49,26 @@ body{
 }
 
 /*Facebook link/Icon interaktiv*/
-.facebook {
-    padding-right: 12px;
-    background: url(Materialien03/icon_facebook.png) right no-repeat;
+a[href="facebook.com/"] {
+    background: url(Materialien03/icon_facebook.png) center right no-repeat;
+    padding-left: 0px;
 }
 
+.facebooklink{
+    display: block;
+    margin-left: 430px;
+    margin-top: -200px;
+    width: 20px;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.facebooklink:hover {
+    opacity: 100%;
+}
 
 /*Bild und Videoformation*/
-img, video, h2{
+h2{
     display: block; width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -68,17 +79,27 @@ img, video, h2{
      color: #B63514;
  }
 
+ .bilder {
+     margin-top: 450px;
+ }
+
+ #Inhalt{
+    display: block; width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 5px;
+ }
+
  /*Navigation Bar*/
  ul {
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
     right: 0px;
     width: 320px;
     margin-left: 1200px;
     background-color: black;
     overflow: hidden;
-    list-style-type:;
+    list-style-type: style type;
     border-radius: 5px;
   }
   
