@@ -48,6 +48,13 @@ body{
     margin-top: -50px;
 }
 
+.logo{
+    display: block;
+    margin-right: 700px;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+
 /*Facebook link/Icon interaktiv*/
 a[href="facebook.com/"] {
     background: url(Materialien03/icon_facebook.png) center right no-repeat;
@@ -73,14 +80,12 @@ h2{
     margin-left: auto;
     margin-right: auto;
     padding: 0px 0px 5px;
- }
-
- h2{
-     color: #B63514;
+    color: #B63514;
+    font-size: 40px;
  }
 
  .bilder {
-     margin-top: 450px;
+     margin-top: 500px;
  }
 
  #Inhalt{
@@ -93,8 +98,8 @@ h2{
  /*Navigation Bar*/
  ul {
     position: fixed;
-    top: 0;
-    right: 0px;
+    top: -16px;
+    right: 30px;
     width: 320px;
     margin-left: 1200px;
     background-color: black;
@@ -125,16 +130,47 @@ h2{
       background-color: #B63514;
   }
 
-  .aboutme {
+  /* Text Über mich */
+  #aboutme {
       display: block; width: 800px;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: lighter;
       text-align: left;
       margin-left: auto;
       margin-right: auto;
       padding: 0px 0px 5px;
-      margin-top: -280px;
+      margin-top: 500px;
  }
 
+  /*Kontaktform*/
+  #form {
+      display: block;
+      margin-left: 400px;
+      margin-right: 400px;
+      margin-top: 550px;
+  }
+
+  input[type=text] {
+      background-color: rgb(224, 224, 213);
+      color: rgb(110, 110, 110);
+      outline: none;
+      border: none;
+      width: 30%;
+      padding: 12px 12px;
+  }
+
+  input[type=text]:focus {
+      background-color: #ffffff;
+  }
+
+  input[type=submit] {
+    background-color: rgb(224, 224, 213);
+    border: none;
+    color: rgb(110, 110, 110);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 
