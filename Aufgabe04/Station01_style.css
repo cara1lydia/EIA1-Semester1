@@ -1,0 +1,33 @@
+/*Hintergund*/
+body {
+    background-image: url(../Aufgabe04/Materialien041/bg\ \(1\).png);
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.Karte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Text {
+    position: absolute;
+    top: 45px;
+    left: 60px;
+    color: white;
+}
+
+.Pinguin {
+    position: absolute;
+    top: 220px;
+    left: 470px;
+}
+
+.Zweig {
+    position: absolute;
+    top: -80px;
+    left: -60px;
+}
