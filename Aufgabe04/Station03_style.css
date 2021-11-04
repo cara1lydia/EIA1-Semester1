@@ -1,0 +1,54 @@
+body {
+    background-image: url(../Aufgabe04/Materialien042/bg.png);
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.Karte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Text{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    color: white;
+}
+
+.s1,.s1hover {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+
+.s2,.s2hover {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+.s3,.s3hover {
+    position: absolute;
+    top: 180px;
+    left: 260px;
+}
+
+.s4,.s4hover {
+    position: absolute;
+    top: 290px;
+    left: 400px;
+}
+
+.s1hover,.s2hover,.s3hover,.s4hover {
+    opacity: 0%;
+}
+
+.s1hover:hover,.s2hover:hover,.s3hover:hover,.s4hover:hover {
+    opacity: 100%;
+}
+
+
