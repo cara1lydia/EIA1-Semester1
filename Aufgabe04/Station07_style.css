@@ -1,5 +1,8 @@
 body {
     background-image: url(../Aufgabe04/Materialien04_07/bg.png);
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 
 .Karte {
