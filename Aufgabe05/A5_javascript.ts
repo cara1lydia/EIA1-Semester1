@@ -45,12 +45,12 @@ var au_au2=au18-au08;
 /*Console*/
 console.log("Die Emission von Afrika ist:", af18.toFixed(1) ,"kg CO2.", 
            "Relativ zur Gesamtemission der Welt verursacht Europa damit", af_we.toFixed(1) ,"%.",
-           "Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um", af_af.toFixed(1) ,"% verändert.", 
+           "Für Afrika hat sich 2018 im Vergleich zu 2008 die Emission um", af_af.toFixed(1) ,"% verändert.", 
            "2018 im Vergleich zu 2008 sind das", af_af2.toFixed(1) ,"kg CO2.");
 
 console.log("Die Emission von Südamerika ist:", sa18.toFixed(1) ,"kg CO2.", 
            "Relativ zur Gesamtemission der Welt verursacht Europa damit", sa_we.toFixed(1) ,"%.", 
-           "Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um", sa_sa.toFixed(1) ,"% verändert.", 
+           "Für Südamerika hat sich 2018 im Vergleich zu 2008 die Emission um", sa_sa.toFixed(1) ,"% verändert.", 
            "2018 im Vergleich zu 2008 sind das", as_as2.toFixed(1) ,"kg CO2.");
 
 console.log("Die Emission von Europa ist:", eu18.toFixed(1) ,"kg CO2.",
@@ -60,15 +60,15 @@ console.log("Die Emission von Europa ist:", eu18.toFixed(1) ,"kg CO2.",
 
 console.log("Die Emission von Nordamerika ist:", na18.toFixed(1) ,"kg CO2.", 
            "Relativ zur Gesamtemission der Welt verursacht Europa damit", na_we.toFixed(1) ,"%.", 
-           "Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um", na_na.toFixed(1) ,"% verändert.", 
+           "Für Nordamerika hat sich 2018 im Vergleich zu 2008 die Emission um", na_na.toFixed(1) ,"% verändert.", 
            "2018 im Vergleich zu 2008 sind das", na_na2.toFixed(1) ,"kg CO2.");
 
 console.log("Die Emission von Asien ist:", as18.toFixed(1) ,"kg CO2.", 
            "Relativ zur Gesamtemission der Welt verursacht Europa damit", as_we.toFixed(1) ,"%.", 
-           "Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um", as_as.toFixed(1) ,"% verändert.", 
+           "Für Asien hat sich 2018 im Vergleich zu 2008 die Emission um", as_as.toFixed(1) ,"% verändert.", 
            "2018 im Vergleich zu 2008 sind das", as_as2.toFixed(1) ,"kg CO2.");
 
 console.log("Die Emission von Australien ist:", au18.toFixed(1) ,"kg CO2.", 
            "Relativ zur Gesamtemission der Welt verursacht Europa damit", au_we.toFixed(1) ,"%.", 
-           "Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um", au_au.toFixed(1) ,"% verändert.", 
+           "Für Australien hat sich 2018 im Vergleich zu 2008 die Emission um", au_au.toFixed(1) ,"% verändert.", 
            "2018 im Vergleich zu 2008 sind das", au_au2.toFixed(1) ,"kg CO2.");
