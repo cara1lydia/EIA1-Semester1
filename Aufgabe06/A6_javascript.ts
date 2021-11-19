@@ -30,14 +30,14 @@ var au="Australia"
 /*Window load*/
 window.addEventListener("load",function(){
 /*Funktionen mit Rechnungen*/
-function kontinent (ko, ko08, ko18,){
+function kontinent (ko, ko08, ko18){
     document.querySelector("#titleRegion").innerHTML=ko;
     document.querySelector(".zahl").innerHTML=ko18.toFixed(1);
     document.querySelector("#kontinent").innerHTML=ko;
     document.querySelector(".zurwelt").innerHTML=(ko18/welt18*100).toFixed(1)+"%";
     document.querySelector(".wachstumprozent").innerHTML=(100/ko08*ko18-100).toFixed(1)+"%";
     document.querySelector(".wachstumabsolut").innerHTML=(ko18-ko08).toFixed(1);
-    document.getElementById("chart").setAttribute("style","height:"+(ko18/welt18*100).toFixed(1)+"%;");
+    document.getElementById("chart").setAttribute("style","height:"+(ko18/welt18*100));
 }
 /*Beim klicken ändern sich die Werte*/
 document.querySelector(".europe").addEventListener("click", function(){kontinent(eu,eu08,eu18);});

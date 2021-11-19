@@ -36,7 +36,7 @@ window.addEventListener("load", function () {
         document.querySelector(".zurwelt").innerHTML = (ko18 / welt18 * 100).toFixed(1) + "%";
         document.querySelector(".wachstumprozent").innerHTML = (100 / ko08 * ko18 - 100).toFixed(1) + "%";
         document.querySelector(".wachstumabsolut").innerHTML = (ko18 - ko08).toFixed(1);
-        document.getElementById("chart").setAttribute("style", "height:" + (ko18 / welt18 * 100).toFixed(1) + "%;");
+        document.getElementById("chart").setAttribute("style", "height:" + (ko18 / welt18 * 100));
     }
     /*Beim klicken ändern sich die Werte*/
     document.querySelector(".europe").addEventListener("click", function () { kontinent(eu, eu08, eu18); });
