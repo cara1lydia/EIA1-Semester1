@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+#button{
+    height: 150px;
+    width: 150px;
+    border: 1px;
+    border-radius: 5px;
+    float: left;
+    margin: 2px;
+    border-style: solid;
+}
+
+.kit{
+    margin-left: 550px;
+    margin-right: 450px;
+}
+
+.playbutton{
+    position: relative;
+    margin-left: 160px;
+}
+
+.blue #button{
+    background:linear-gradient( #3d94f6, #246bd7);
+    position: relative;
+}
+
+.pink #button{
+    background:linear-gradient(#ff5ab0, #f11085);
+    position: relative;
+}
+
+.yellow #button{
+    background: linear-gradient(#f6a33c, #cd6f09);
+    position:relative;
+}
