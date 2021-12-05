@@ -1,0 +1,84 @@
+/*Hintergrund und Abstand nach oben*/
+body{
+    background-color: black;
+    margin-top: 30px;
+}
+
+/*Design Drumpads*/
+#button{
+    height: 150px;
+    width: 150px;
+    border: 1px;
+    border-radius: 5px;
+    float: left;
+    margin: 2px;
+    border-style: solid;
+}
+
+/*Positionierung Drumpad*/
+.kit{
+    margin-left: 550px;
+    margin-right: 450px;
+    width: 600px;
+}
+
+/*Design Play, Record, Shuffle, Delete Icons*/
+i {
+    color: rgb(139, 139, 139);
+    font-size: 80px;
+    opacity: 50%;
+    display: inline-block;
+
+}
+
+/*Positionierung einzelener Icons*/
+#play {
+    position: absolute;
+    left: 590px;
+    top: 520px;
+}
+
+#record {
+    position: absolute;
+    left: 700px;
+    top: 520px;
+
+}
+
+#shuffle {
+    position: absolute;
+    left: 800px;
+    top: 520px;
+}
+
+#trash {
+    position: absolute;
+    left: 920px;
+    top: 520px;
+}
+
+/*Farben/Farbverlauf Drumpads*/
+.blue #button{
+    background:linear-gradient( #3d94f6, #246bd7);
+    position: relative;
+}
+
+.pink #button{
+    background:linear-gradient(#ff5ab0, #f11085);
+    position: relative;
+}
+
+.yellow #button{
+    background: linear-gradient(#f6a33c, #cd6f09);
+    position: relative;
+}
+
+/*Hoverfunktionen Größenänderund und Sichtbarkeit*/
+.b1:hover, .b2:hover, .b3:hover, .b4:hover, .b5:hover, .b6:hover, .b7:hover, .b8:hover, .b9:hover, #play:hover, #record:hover, #shuffle:hover, #trash:hover {
+    transform: scale(0.96);
+    transition: all 250ms;
+}
+
+#play:hover, #record:hover, #shuffle:hover, #trash:hover {
+    opacity: 100%;
+}
