@@ -1,4 +1,4 @@
-/*Variablen*/
+/*Variablen und Booleans*/
 var sample: string[] = [  "../Aufgabe07/Materialien07/A.mp3", 
                         "../Aufgabe07/Materialien07/C.mp3", 
                         "../Aufgabe07/Materialien07/F.mp3", 
@@ -51,7 +51,7 @@ function pausebeat(): void {
     document.getElementById("play").setAttribute("class", "fas fa-play");
 }
 
-/*Random Beat*/
+/*Zufälliger Beat*/
 function randombeat(): void {
     deletebeat();
     for (let i: number = 0; i < 8; i++) {
