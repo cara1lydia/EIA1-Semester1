@@ -38,7 +38,7 @@ window.addEventListener("load", function () {
             check.style.opacity = "100%";
         } });
     }
-    /*Bei Enter wird ein Aufgabenfeld erstellt also die Funktion addingyourtask ausgeführt*/
+    /*Bei Enter wird ein Aufgabenfeld erstellt, also die Funktion addingyourtask ausgeführt*/
     document.addEventListener("keydown", function (event) {
         if (event.keyCode == 13) {
             addingyourtask();

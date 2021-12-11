@@ -1,6 +1,9 @@
 body {
-    background-color: rgb(253, 241, 201);
     padding-left: 50px;
+    background-color: #e9ddbc;
+    opacity: 0.8;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(0deg, #cfc9af, #cfc9af 1px, #e9ddbc 1px, #e9ddbc);
 }
 
 h1 {
@@ -8,14 +11,16 @@ h1 {
     font-family: "courier new", monospace;
     font-weight: lighter;
     letter-spacing: -5px;
+    position: relative;
+    left: 70px;
 }
 
 h2 {
-    position: absolute;
+    position: relative;
     font-family: "courier new", monospace;
     font-weight: lighter;
-    top: 80px;
-    left: 140px;
+    top: -70px;
+    left: 160px;
 }
 
 input {
@@ -25,9 +30,12 @@ input {
     border-radius: 4px;
     resize: vertical;
     padding-left: 20px;
+    box-shadow: 3px 3px 10px gray;
 }
 
 #writetask {
+    position: relative;
+    top: -40px;
     font-size: 40px;
     color: rgb(175, 175, 175);
     font-family: "courier new", monospace;
@@ -51,7 +59,7 @@ input {
     font-size: 40px;
     border: none; 
     background: none;
-    opacity: 20%;
+    opacity: 0%;
     cursor: pointer;
 }
 
@@ -60,12 +68,17 @@ input {
     font-size: 40px;
     background: none;
     border: none;
-    opacity: 100%;
+    opacity: 0%;
     cursor: pointer;
+    padding-left: 30px;
 }
 
 .fa-trash-o:hover {
-    opacity: 40%;
+    opacity: 80%;
+}
+
+.fa-check:hover {
+    opacity: 20%;
 }
 
 .addedtask {
@@ -80,7 +93,7 @@ input {
 
 .todotext {
     padding: 10px 10px;
-    padding-left: 60px;
+    padding-left: 80px;
     margin: 0.5rem;
     background: white;
     color: black;
@@ -89,7 +102,21 @@ input {
     justify-content: space-between;
 }
 
+.flower {
+    position: fixed;
+    left: 700px;
+    top: 150px;
+    box-shadow: 3px 3px 10px gray;
+}
+
+.quote {
+    position: fixed;
+    left: 1100px;
+    top: 100px;
+    box-shadow: 3px 3px 10px gray;
+}
+
 .chart {
-    position: absolute;
+    position: fixed;
     top: 750px;
 }
